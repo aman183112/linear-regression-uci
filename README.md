@@ -28,7 +28,7 @@ linear-regression-uci/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/linear-regression-uci.git
+git clone https://github.com/aman183112/linear-regression-uci.git
 cd linear-regression-uci
 ```
 
