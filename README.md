@@ -1,6 +1,6 @@
-# 📘 Univariate Linear Regression — Gradient Descent from Scratch
+# 📘 Univariate Linear Regression 
 
-A clean, beginner-friendly implementation of **Univariate Linear Regression** using manual **Gradient Descent** — no scikit-learn, no shortcuts.
+A clean, beginner-friendly implementation of **Univariate Linear Regression**.
 
 Dataset sourced directly from the **UCI Machine Learning Repository** (Student Performance, id=320).
 
@@ -60,7 +60,7 @@ python linear_regression.py
 | EDA | Shape, dtypes, missing values, statistics |
 | Correlation Analysis | Auto-selects the feature most correlated with G3 |
 | Feature Scaling | Standardisation (zero mean, unit variance) |
-| Gradient Descent | Manual implementation — no sklearn |
+| Gradient Descent | Manual implementation |
 | Evaluation | R² Score |
 | Visualisations | Scatter plot, loss curve, regression line, residual plot |
 
@@ -71,17 +71,6 @@ python linear_regression.py
 - **Name:** Student Performance
 - **Source:** [UCI ML Repository](https://archive.ics.uci.edu/dataset/320/student+performance)
 - **Target:** `G3` — Final student grade (0–20)
-
----
-
-## 🧮 Model
-
-$$\hat{y} = wX + b$$
-
-Parameters updated via gradient descent:
-
-$$w := w - \alpha \cdot \frac{2}{n}\sum(\hat{y} - y) \cdot X$$
-$$b := b - \alpha \cdot \frac{2}{n}\sum(\hat{y} - y)$$
 
 ---
 
